@@ -3,6 +3,7 @@
   font-style: italic;
   margin-bottom: 2vw;
   font-size: 2.25em;
+  animation: heading 1s;
 }
 
 .links {
@@ -21,5 +22,14 @@
   .logo,
   .links {
     margin-bottom: 7.2vw;
+  }
+}
+
+@keyframes heading {
+  from {
+    letter-spacing: -0.5em;
+  }
+  to {
+    letter-spacing: -0.05em;
   }
 }
