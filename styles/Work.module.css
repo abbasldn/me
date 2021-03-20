@@ -1,0 +1,50 @@
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.workdate {
+  margin-bottom: 1.4vw;
+}
+
+.company > * {
+  margin-right: 1.3vw;
+}
+
+.container > * {
+  margin-bottom: 1.4vw;
+}
+
+.heading {
+  font-size: 3em;
+}
+
+.subheading {
+  font-size: 2.25em;
+}
+
+.companyName {
+  font-size: 1.5em;
+  color: #003d60;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 2.25em;
+    margin-bottom: 4.8vw;
+  }
+  .subheading {
+    font-size: 1.5em;
+    margin-bottom: 2.4vw;
+  }
+  .company {
+    margin-bottom: 2.4vw;
+  }
+
+  .container p {
+    margin-bottom: 7.2vw;
+  }
+  p.workdate {
+    margin-bottom: 2.4vw;
+  }
+}

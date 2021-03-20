@@ -1,0 +1,30 @@
+.container {
+  background-color: #003d60;
+  color: #e9f8ff;
+  margin: 0;
+  padding: 50px 100px;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+}
+
+.footerlink {
+  width: 29px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 50px 30px;
+  }
+
+  .links {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    position: absolute;
+    bottom: 0;
+  }
+}
