@@ -24,7 +24,7 @@
 
 @media (min-width: 1440px) {
   .container {
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
 }
