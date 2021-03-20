@@ -15,6 +15,9 @@
   .container div > * {
     margin-bottom: 2vw;
   }
+  .container div p {
+    width: 60vw;
+  }
 }
 
 @media (max-width: 600px) {
