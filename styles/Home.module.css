@@ -34,3 +34,10 @@
     height: 50vh;
   }
 }
+
+@media (min-width: 1700px) {
+  .container {
+    width: 1440px;
+    margin: 100px auto;
+  }
+}

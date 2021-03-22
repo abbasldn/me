@@ -5,7 +5,7 @@ import Logo from './Logo';
 const Hero = () => {
   return (
     <div className={styles.container}>
-      <div className="content">
+      <div className={styles.content}>
         <h1 className={styles.heading}>
           I'm Abbas - a React developer based in London, UK
         </h1>
@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={styles.logo}>
-        <Logo src="abbasldnlogo.svg" size={150} />
+        <Logo src="abbasldnlogo.svg" size={250} />
       </div>
     </div>
   );
