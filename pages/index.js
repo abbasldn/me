@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
-import Link from 'next/link';
-import Image from 'next/image';
 import Footer from '../components/Footer';
-import Logo from '../components/Logo';
 import Hero from '../components/Hero';
 import Work from '../components/Work';
 

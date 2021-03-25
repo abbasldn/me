@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 import headerStyles from '../styles/Header.module.css';
-import Logo from './Logo';
 
 const Footer = () => {
   return (

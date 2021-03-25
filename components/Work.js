@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
 import styles from '../styles/Work.module.css';
-import Link from 'next/link';
 
 const Work = () => {
   return (
