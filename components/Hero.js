@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from '../styles/Hero.module.css';
-import Logo from './Logo';
+import React from "react";
+import styles from "../styles/Hero.module.css";
+import Logo from "./Logo";
 
 const Hero = () => {
   return (
@@ -9,13 +9,13 @@ const Hero = () => {
         <h1 className={styles.heading}>
           I'm Abbas - a React developer based in London, UK
         </h1>
-        <p>
+        <p className={styles.body}>
           TypeScript • React • Redux • React Native • Sass • Node.js • Express •
           MongoDB • Git • HTML5 • CSS3
         </p>
       </div>
       <div className={styles.logo}>
-        <Logo src="abbasldnlogo.svg" size={250} />
+        <Logo src="me.jpeg" size={250} face={true} />
       </div>
     </div>
   );

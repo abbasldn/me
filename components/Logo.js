@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from '../styles/Logo.module.css';
+import React from "react";
+import styles from "../styles/Logo.module.css";
 
-const Logo = ({ src, workLogo, size, footer }) => {
+const Logo = ({ src, workLogo, size, footer, face }) => {
   let classNames;
 
   if (workLogo) {
@@ -14,7 +14,7 @@ const Logo = ({ src, workLogo, size, footer }) => {
   return (
     <div className={classNames}>
       <img
-        className={styles.logo}
+        className={face ? styles.face : styles.logo}
         src={`/${src}`}
         height={size}
         width={size}

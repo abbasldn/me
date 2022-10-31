@@ -5,11 +5,16 @@
 
 .logo {
   width: 200px;
+  border-radius: 50%;
 }
 
 .heading {
   font-size: 3em;
   font-weight: 700;
+}
+
+.body {
+  width: 85%;
 }
 
 @media (min-width: 600px) {
