@@ -1,29 +1,29 @@
-import React from 'react';
-import Logo from './Logo';
-import styles from '../styles/Work.module.css';
+import React from "react";
+import Logo from "./Logo";
+import styles from "../styles/Work.module.css";
 
 const Work = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>Work Experience</h1>
-      {/* <h2 className={styles.subheading}>Founder</h2>
+      <h2 className={styles.subheading}>Applications Engineer</h2>
       <div className={styles.work}>
-        <p className={styles.workdate}>Mar 2021 - Present</p>
+        <p className={styles.workdate}>Jul 2021 - Present</p>
         <div className={styles.company}>
-          <Logo src="sujood-logo-bg.png" workLogo size={29} />
-          <a href="https://sujood.io" target="_blank">
-            <h3 className={styles.companyName}>Sujood</h3>
+          <Logo src="medidata-user-logo.jpeg" workLogo size={29} />
+          <a href="https://www.medidata.com/" target="_blank">
+            <h3 className={styles.companyName}>Medidata</h3>
           </a>
         </div>
       </div>
       <p>
-        Sujood is an app which aims to provide a free &amp; fast website to any
-        mosque in the world. <br /> <br /> Built with: TypeScript, Next.js,
-        React with Redux, Node.js + Express, MongoDB, JWT &amp; AWS
-      </p> */}
+        Medidata combines the wealth of data, AI powered insights, and
+        patient-centric solutions required to bring tomorrow's breakthrough
+        therapies and devices to life, and into the hands of patients.
+      </p>
       <h2 className={styles.subheading}>Fullstack Developer</h2>
       <div className={styles.work}>
-        <p className={styles.workdate}>Jan 2020 - Present</p>
+        <p className={styles.workdate}>Jan 2020 - Jun 2021</p>
         <div className={styles.company}>
           <Logo src="sunnahmatch.png" workLogo size={29} />
           <a href="https://sunnahmatch.com" target="_blank">
